@@ -48,7 +48,7 @@
       *
           Dcl-S Index Int(5);
 
-          Dcl-Ds Department ExtName('SAMPLE/DEPARTMENT') Alias Qualified;
+          Dcl-Ds Department ExtName('WMUHAMMAD/DEPARTMENT') Alias Qualified;
           End-Ds;
 
           
@@ -94,7 +94,7 @@
 
             EXEC SQL DECLARE deptCur CURSOR FOR
               SELECT DEPTNO, DEPTNAME
-              FROM SAMPLE.DEPARTMENT;
+              FROM WMUHAMMAD.DEPARTMENT;
 
             EXEC SQL OPEN deptCur;
 
