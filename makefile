@@ -2,7 +2,7 @@ BIN_LIB=CMPSYS
 LIBLIST=$(BIN_LIB) WMUHAMMAD
 SHELL=/QOpenSys/usr/bin/qsh
 
-all: depts.pgm.sqlrpgle employees.sqlrpgle
+all: depts.sqlrpgle employees.sqlrpgle
 
 ## Targets
 
